@@ -12,7 +12,7 @@ Create Table Moeda ( Id INT PRIMARY KEY, Nome VARCHAR)
 
 Create Table Contas_Contabeis (Id INT PRIMARY KEY, Lucro MONEY, Despesas MONEY)
 
-Create Table Funcionarios (CPF INT PRIMARY KEY, Nome VARCHAR (255))
+Create Table Funcionario (CPF INT PRIMARY KEY, Nome VARCHAR (255))
 
-Create Table Projetos (Id INT PRIMARY KEY, Nome VARCHAR(255), CPF INT)
+Create Table Projeto (Id INT PRIMARY KEY, Nome VARCHAR(255), CPF INT)
 
